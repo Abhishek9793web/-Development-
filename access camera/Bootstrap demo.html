@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/bootstrep.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="./Bootstrap demo_files/style.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="./Bootstrap demo_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Bootstrap demo_files/all.css">
+  <style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style></head>
+<body>
+    <!--nev bar start -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="http://127.0.0.1:5500/bootstrep.html#">Learn Web Development with Bootstrap</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nev ms-lg-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/bootstrep.html#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/bootstrep.html#">Service</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/bootstrep.html#">About</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/bootstrep.html#">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--nev bar end -->
+    <!--heder begin-->
+    <header class="header">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-md-12 text-center">
+            <h1>Welcome to web development tutorial with bootstrap.</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic est
+              quis et iure tempora minima similique amet cum commodi id rerum,
+              in non doloremque veniam accusamus distinctio, at animi ea
+              ducimus, ad eveniet ipsam esse beatae molestias! Tempore, officia,
+              vero, unde distinctio tempora natus blanditiis inventore earum ex
+              officiis excepturi!
+            </p>
+            <button class="btn btn-primary">Start Learning !</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--heder end-->
+    <!--message section part-->
+    <section class="message py-5">
+      <div class="container text-center">
+        <h1>We've got what you need!</h1>
+        <p>
+           Bootstrap has everything you need to get your new website up and
+          running in no time! Choose one of our open source, free to download,
+          and easy to use themes! No strings attached!
+        </p>
+        <button class="btn btn-primary">Check it out!</button>
+      </div>
+    </section>
+    <!-- middel end part-->
+    <!--middel 2 part-->
+    <section id="whatido">
+     <div class="container text-center">
+       <h1>What i do ?</h1>
+        <h2>web development</h2>
+       <div class="col-lg-6 col-md-6 my-auto feature-web"> 
+         <ul class="dev-icon">
+           <i class="fab fa-html5 fa-5x" style="color:#ff7700;"></i>
+           <i class="fab fa-css3-alt fa-5x" style="color:#3212e9;"></i>
+           <i class="fab fa-bootstrap fa-5x" style="color:rgb(236, 18, 185);"></i>
+           <i class="fab fa-js fa-5x" style="color:yellow;"></i>
+           <i class="fab fa-react fa-5x" style="color:#00cbf2"></i>
+         </ul>
+       </div> 
+       <p>
+         Building Fully responsive website front end using HTML,<br>
+         CSS, Bootstrap and Javascript.
+        </p>
+        <p>
+        As of now I have knowledge only of front end but in near<br>
+       future I will add more features to myself and excited to <br>
+       explore React , NodeJS, Django , Flask and many more.
+       </p>
+     </div>
+    </section> 
+    <!--middel 2 end part-->
+    <script src="./Bootstrap demo_files/bootstrap.bundle.min.js.download" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<script>
+		var returnedSuggestion = ''
+		let editor, doc, cursor, line, pos
+		document.addEventListener("keydown", (event) => {
+		setTimeout(()=>{
+			editor = event.target.closest('.CodeMirror');
+			if (editor){
+				doc = editor.CodeMirror.getDoc()
+				cursor = doc.getCursor()
+				line = doc.getLine(cursor.line)
+				pos = {line: cursor.line, ch: line.length}
+				if (event.key == "Enter"){
+					var query = doc.getRange({ line: Math.max(0,cursor.line-10), ch: 0 }, { line: cursor.line, ch: 0 })
+					window.postMessage({source: 'getSuggestion', payload: { data: query } } )
+					//displayGrey(query)
+				}
+				else if (event.key == "ArrowRight"){
+					acceptTab(returnedSuggestion)
+				}
+			}
+		}, 0)
+		})
+
+		function acceptTab(text){
+		if (suggestionDisplayed){
+			doc.replaceRange(text, pos)
+			suggestionDisplayed = false
+		}
+		}
+		function displayGrey(text){
+		var element = document.createElement('span')
+		element.innerText = text
+		element.style = 'color:grey'
+		var lineIndex = pos.line;
+		editor.getElementsByClassName('CodeMirror-line')[lineIndex].appendChild(element)
+		suggestionDisplayed = true
+		}
+		window.addEventListener('message', (event)=>{
+		if (event.source !== window ) return
+		if (event.data.source == 'return'){
+			returnedSuggestion = event.data.payload.data
+			displayGrey(event.data.payload.data)
+		}
+		})
+	</script></body></html>

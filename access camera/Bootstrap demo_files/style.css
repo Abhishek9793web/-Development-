@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}    
+nav{
+    width:0px;
+    padding:0px;
+    line-height:75px ;
+    padding:0px 100px;
+    position:fixed;
+    background-image:linear-gradient(#033747,#012733);    
+}
+nav.logo p{
+    font-size:30px;
+    font-weight:bold;
+    float:left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+nav li a{
+    font-size:18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    color:white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color:nav ul{
+    float:right;
+
+}
+nav li{
+    display:inline-block;
+    list-style:none;
+} coral;
+    transition: all 0.4s ease 0s;
+}
