@@ -1,0 +1,24 @@
+#game {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+  }
+  
+  .car {
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  #car1 {
+    background-color: red;
+    left: 10px;
+  }
+  
+  #car2 {
+    background-color: blue;
+    right: 10px;
+  }
+  
