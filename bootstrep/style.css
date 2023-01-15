@@ -1,0 +1,33 @@
+
+.header{
+    height:90vh;
+    width:100;
+    color:rgb(241, 239, 239);
+    background:linear-gradient(rgba(217, 12, 152, 0.5), rgba(223, 81, 15, 0.5)), url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.message {
+    background-image: linear-gradient(to top, #65c193 0%, #ee9dee 100%);
+
+}
+ #whatido{
+    text-align:center;
+    padding-top: 7%;
+    
+}
+.myicon {
+    font-size: 60px;
+    padding: 20px;
+  } 
+.feature-web{
+    margin-left: auto;
+    margin-right: auto;
+}
+.download{
+    background-image: linear-gradient(to top, #f8630db6 0%, #0ec6e6 100%);
+}
+.nevbar{
+    background-color: #0ec6e6;
+}
+.link{
+    background-image:linear-gradient(to top,#0df8f8 0%,#5ae60e 100%) ;
+}
