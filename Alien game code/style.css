@@ -1,0 +1,115 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.game{
+    width: 650px;
+    height: 600px;
+    background-image: url('space.jpg');
+    overflow: hidden;
+    position: absolute;
+}
+
+.player{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 370px;
+    left: 0px;
+    text-align: center;
+    z-index: 1;
+}
+.player img{
+    width: 130px;
+    height: auto;
+}
+
+.alien{
+    width: 130px;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+.alien img{
+    width: 100px;
+    height: auto;
+}
+
+.alienMove{
+    animation: alienMove 1.5s linear  infinite  forwards;
+}
+
+.bullet{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 370px;
+    left: 0;
+    text-align: center;
+    animation: fire 1s linear 1 forwards;
+}
+
+.bulletImg{
+    width: 100px;
+    height: auto;
+}
+
+@keyframes fire {
+    0%{
+        top: 370px;
+    }
+    100%{
+        top: -10px;
+    }
+}
+
+@keyframes alienMove {
+    0%{
+        top: -10px;
+    }
+    100%{
+        top: 600px;
+    }
+    
+}
+
+#result{
+    height: 200px;
+    width: 400px;
+    background-color: rgba(69, 212, 61, 0.377);;
+    margin:  1rem auto;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    display:none ;
+    font-family: 'Courier New', Courier, monospace;
+}
+#score{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: red;
+}
+#btn{
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: rgb(68, 239, 45);
+    font-size: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
